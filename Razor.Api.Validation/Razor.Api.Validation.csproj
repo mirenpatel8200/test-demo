@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Razor.Api.Context\Razor.Api.Context.csproj" />
+    <ProjectReference Include="..\Razor.Api.Data.Repository\Razor.Api.Data.Repository.csproj" />
+    <ProjectReference Include="..\Razor.Api.Model\Razor.Api.Model.csproj" />
+  </ItemGroup>
+
+</Project>
